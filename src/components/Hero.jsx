@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="grid gap-10 mt-16 md:grid-cols-2 md:items-center">
           <div>
             <h3 className="text-[#dddddd] font-bold text-[22px] lg:text-[36px] mb-[10px]">
-              I am Gerold
+              I am Sojib
             </h3>
             <h1 className="text-[35px] lg:text-[65px] text_gradient font-bold leading-[1.2]">
               Web Developer +<br /> UX Designer

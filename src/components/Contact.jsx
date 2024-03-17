@@ -98,8 +98,8 @@ const Contact = () => {
                 </div>
                 <div className="form_group">
                   <input
-                    type="number"
-                    name="number"
+                    type="text"
+                    name="text"
                     placeholder="Phone number"
                     className="placeholder:text-[#757575]"
                   />
@@ -107,8 +107,8 @@ const Contact = () => {
                 <div className="form_group col-span-2">
                   <textarea
                     rows={12}
-                    type="number"
-                    name="number"
+                    type="text"
+                    name="text"
                     placeholder="Message"
                     className="placeholder:text-[#757575]"
                   />

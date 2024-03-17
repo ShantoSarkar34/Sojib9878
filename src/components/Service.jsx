@@ -14,7 +14,7 @@ const Service = () => {
         </p>
 
         <div className="  pt-20">
-          <div className="flex flex-col lg:flex-row justify-between lg:items-center bg-transparent service_bg_active border-b border-[#2a1454] p-4 lg:py-10 lg:px-10 gap-y-4 text-white transition-all duration-100 relative cursor-pointer">
+          <div className="flex flex-col lg:flex-row justify-between lg:items-center bg-transparent service_bg border-b border-[#2a1454] p-4 lg:py-10 lg:px-10 gap-y-4  text-[#8750f7] hover:text-white transition-all duration-100 relative cursor-pointer">
             <div className="flex flex-col gap-4 md:flex-row lg:items-center flex-wrap md:gap-10">
               <span className=" text-[20px] font-bold transition-all">01</span>
               <h3 className="font-bold text-[25px] lg:text-[30px] leading-[1.2] text-white uppercase">
@@ -27,7 +27,7 @@ const Service = () => {
                 integritiy focussed solutions that connect billions of people
               </p>
               <div className=" absolute top-5 md:top-[40%] right-[5%]">
-                <GoArrowRight className="text-3xl lg:text-[34px] rotate-[-45deg]" />
+                <GoArrowRight className="arrow-direction-change text-3xl lg:text-[34px] rotate-[45deg] transition-all duration-500" />
               </div>
             </div>
           </div>

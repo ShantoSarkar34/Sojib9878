@@ -165,7 +165,7 @@ export default function Header() {
           href="/"
           className="mr-4 cursor-pointer py-1.5 font-medium transition-all duration-200 flex items-center gap-10"
         >
-          <Image src={Logo_1} alt="logo" className=" w-44 lg:w-48" />
+          <Image src={Logo_1} alt="logo" className="w-32 md:w-44 lg:w-48" />
         </Typography>
         <div className="flex items-center gap-10">
           <div className="mr-4 hidden lg:block  ">{navList}</div>
