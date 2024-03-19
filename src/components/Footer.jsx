@@ -13,7 +13,7 @@ const Footer = () => {
               <Image src={Logo_1} alt="logo" className=" w-44 lg:w-48" />
             </Link>
           </div>
-          <div className="flex items-center gap-2 lg:gap-5 flex-wrap">
+          <div className="flex items-center gap-2 lg:gap-5 flex-wrap justify-center">
             <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
