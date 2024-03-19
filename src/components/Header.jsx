@@ -180,15 +180,15 @@ export default function Header() {
           </div>
           <IconButton
             variant="text"
-            className="mx-auto h-6 w-6 text-inherit -mt-10 hover:bg-transparent
+            className="mx-auto h-6 w-6 text-inherit -mt-11 hover:bg-transparent
              focus:bg-transparent  active:bg-transparent lg:hidden "
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <RxCross2 className="text-5xl text-primary" />
+              <RxCross2 className="text-4xl text-primary" />
             ) : (
-              <RiMenu3Fill className="text-5xl text-primary" />
+              <RiMenu3Fill className="text-4xl text-primary" />
             )}
           </IconButton>
         </div>

@@ -10,14 +10,10 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-7">
           <div className="">
             <Link href={"/"} className="">
-            <Image
-            src={Logo_1}
-            alt="logo"
-            className=" w-44 lg:w-48"
-          />
+              <Image src={Logo_1} alt="logo" className=" w-44 lg:w-48" />
             </Link>
           </div>
-          <div className="flex items-center gap-2 lg:gap-5">
+          <div className="flex items-center gap-2 lg:gap-5 flex-wrap">
             <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
@@ -55,9 +51,15 @@ const Footer = () => {
               Contact
             </Link>
           </div>
-          <h4 className="text-[#8750f7] text-[14px] leading-[21px] lg:text-[16px]">
-            © 2024 All rights reserved by <span>
-              <Link href={"#"} className="font-semibold border-[#8750f7] hover:border-b-2 px-1">Merajul Islam Sojib</Link>
+          <h4 className="text-center text-[#8750f7] text-[14px] leading-[21px] lg:text-[16px]">
+            © 2024 All rights reserved by{" "}
+            <span>
+              <Link
+                href={"#"}
+                className="font-semibold border-[#8750f7] hover:border-b-2 px-1"
+              >
+                Merajul Islam Sojib
+              </Link>
             </span>
           </h4>
         </div>
