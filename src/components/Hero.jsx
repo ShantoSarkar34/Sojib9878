@@ -93,7 +93,7 @@ const Hero = () => {
         <div className="mt-14 md:mt-20 lg:mt-28 grid grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center lg:justify-items-start">
           <div className="flex items-center gap-4">
             <h3 className="text-white text-[45px] lg:text-[64px] font-semibold leading-[1.1em]">
-              <CountUp start={0} end={14} duration={5} />
+              <CountUp start={0} end={0} duration={5} />
             </h3>
             <p className="text-center lg:text-start text-[#dddddd] text-[16px] leading-[24px] font-normal">
               Years of <br />
@@ -102,7 +102,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-4">
             <h3 className="text-white text-[45px] lg:text-[64px] font-semibold leading-[1.1em]">
-              <CountUp start={0} end={50} duration={5} />+
+              <CountUp start={0} end={0} duration={5} />+
             </h3>
             <p className="text-center lg:text-start text-[#dddddd] text-[16px] leading-[24px] font-normal">
               Project <br />
@@ -111,7 +111,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-4">
             <h3 className="text-white text-[45px] lg:text-[64px] font-semibold leading-[1.1em]">
-              <CountUp start={0.0} end={1.5} duration={5} decimals={1} />K
+              <CountUp start={0.0} end={0.0} duration={5} decimals={1} />K
             </h3>
             <p className="text-center lg:text-start text-[#dddddd] text-[16px] leading-[24px] font-normal">
               Happy <br />
@@ -120,7 +120,7 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-4">
             <h3 className="text-white text-[45px] lg:text-[64px] font-semibold leading-[1.1em]">
-              <CountUp start={0} end={14} duration={5} />
+              <CountUp start={0} end={0} duration={5} />
             </h3>
             <p className="text-center lg:text-start text-[#dddddd] text-[16px] leading-[24px] font-normal">
               Years of <br />
