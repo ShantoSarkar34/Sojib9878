@@ -23,7 +23,7 @@ const Contact = () => {
                   href={"#"}
                   className="text-[20px] leading-[30px] text-white  hover:text-[#8750f7] transition-all duration-300"
                 >
-                  +880 1786-840058888{" "}
+                  +880 1786-840058{" "}
                 </Link>
               </div>
             </div>
