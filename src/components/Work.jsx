@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import portfolio_1 from "../app/img/1.jpg";
-import portfolio_2 from "../app/img/2.jpg";
-import portfolio_3 from "../app/img/3.jpg";
-import portfolio_4 from "../app/img/4.jpg";
+import portfolio_2 from "../app/img/blog/1.jpg";
+import portfolio_1 from "../app/img/blog/2.jpg";
+import portfolio_3 from "../app/img/blog/3.jpg";
+import portfolio_4 from "../app/img/blog/4.jpg";
 import { GoArrowRight } from "react-icons/go";
 
 const Work = () => {
@@ -20,7 +20,7 @@ const Work = () => {
         </p>
         <span className="portfolio-box"></span>
         {/* portfolio button start  */}
-        <div className="my-20 flex justify-center">
+        {/* <div className="my-20 flex justify-center">
           <div className="bg-[#050709] rounded-full overflow-hidden px-4">
             <div className="flex items-center gap-4">
               <button
@@ -53,80 +53,80 @@ const Work = () => {
               </button>
             </div>
           </div>
-        </div>
-        <div className="  grid gap-5 md:grid-cols-2">
-          <div className="relative">
+        </div> */}
+        <div className="  grid gap-5 md:grid-cols-2 pt-10">
+          <Link target="blank" href={"https://sojibislam9878-assignment12.web.app"} className="relative">
             <div className="portfolio-item">
               <Image src={portfolio_2} alt="portfolio" className="" />
               <div className="content-box ">
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-[25px] lg:text-[30px] leading-[1.2] font-bold text-white">
-                      Deloitte
+                      Vanguard Estates 
                     </h2>
                     <p className="text-[16px] leading-[24px] text-[#dddddd]">
-                      Project was about precision and information.
+                    This is an apartment rental website .
                     </p>
                   </div>
                   <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative">
+          </Link>
+          <Link target="blank" href={"https://sojibislam9878assignment11.web.app/"} className="relative">
             <div className="portfolio-item">
               <Image src={portfolio_1} alt="portfolio" className="" />
               <div className="content-box ">
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-[25px] lg:text-[30px] leading-[1.2] font-bold text-white">
-                      New Age
+                      Flavor Junction
                     </h2>
                     <p className="text-[16px] leading-[24px] text-[#dddddd]">
-                      Project was about precision and information.
+                    This is a restaurant management website
                     </p>
                   </div>
                   <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative">
+          </Link>
+          <Link target="blank" href={"https://sojibislam9878assignment11.web.app"} className="relative">
             <div className="portfolio-item">
               <Image src={portfolio_3} alt="portfolio" className="" />
               <div className="content-box ">
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-[25px] lg:text-[30px] leading-[1.2] font-bold text-white">
-                      Sevastian
+                      Crafty Corner
                     </h2>
                     <p className="text-[16px] leading-[24px] text-[#dddddd]">
-                      Project was about precision and information.
+                    This is an e-commerce website.
                     </p>
                   </div>
                   <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
-          </div>
-          <div className="relative">
+          </Link>
+          <Link target="blank" href={"https://sojibislam9878-assignment9.web.app"} className="relative">
             <div className="portfolio-item">
               <Image src={portfolio_4} alt="portfolio" className="" />
               <div className="content-box ">
                 <div className="flex items-center justify-between">
                   <div>
                     <h2 className="text-[25px] lg:text-[30px] leading-[1.2] font-bold text-white">
-                      Mochinix
+                      Elite Haven
                     </h2>
                     <p className="text-[16px] leading-[24px] text-[#dddddd]">
-                      Project was about precision and information.
+                    This is a state managment website.
                     </p>
                   </div>
                   <GoArrowRight className="work_icon text-3xl lg:text-[34px] rotate-[-45deg] text-white" />
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </section>

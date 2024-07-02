@@ -46,7 +46,7 @@ export default function Header() {
       className="mb-4 mt-2 flex flex-col gap-5 lg:mb-0
      lg:mt-0 lg:flex-row lg:items-center lg:gap-7 "
     >
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         className="px-1 font-medium transition-all duration-200  relative"
@@ -62,7 +62,7 @@ export default function Header() {
         >
           <p>Service</p>
         </Link>
-      </Typography>
+      </Typography> */}
 
       <Typography
         as="li"
@@ -81,7 +81,7 @@ export default function Header() {
           <p>Works</p>
         </Link>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         className="px-1 font-medium transition-all duration-200  "
@@ -97,7 +97,7 @@ export default function Header() {
         >
           <p>Resume</p>
         </Link>
-      </Typography>
+      </Typography> */}
       <Typography
         as="li"
         variant="small"
@@ -115,7 +115,7 @@ export default function Header() {
           <p>Skills</p>
         </Link>
       </Typography>
-      <Typography
+      {/* <Typography
         as="li"
         variant="small"
         className="px-1 font-medium transition-all duration-200  "
@@ -131,7 +131,7 @@ export default function Header() {
         >
           <p>Testimonials</p>
         </Link>
-      </Typography>
+      </Typography> */}
       <Typography
         as="li"
         variant="small"

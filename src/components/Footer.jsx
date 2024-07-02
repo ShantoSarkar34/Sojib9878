@@ -14,36 +14,36 @@ const Footer = () => {
             </Link>
           </div>
           <div className="flex items-center gap-2 lg:gap-5 flex-wrap justify-center">
-            <Link
+            {/* <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
             >
               Services
-            </Link>
+            </Link> */}
             <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
             >
               Work
             </Link>
-            <Link
+            {/* <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
             >
               Resume
-            </Link>
+            </Link> */}
             <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
             >
               Skills
             </Link>
-            <Link
+            {/* <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"
             >
               Testimonials
-            </Link>
+            </Link> */}
             <Link
               href={"#"}
               className="uppercase text-white text-[15px] leading-[22px] font-medium cursor-pointer  hvr-underline-from-left  lg:normal-case px-1"

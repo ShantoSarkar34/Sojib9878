@@ -2,12 +2,13 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import hero_img from "../app/img/hero_img.png";
+import hero_img_2 from "../app/img/blog/sojib.jpg";
 import { FaTwitter, FaDribbble, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import CountUp from "react-countup";
 
 const Hero = () => {
   return (
-    <section className="bg-[#0f0715] w-full relative overflow-hidden z-[1] pt-20 lg:pt-32 pb-[50px] text_animation">
+    <section className="bg-[#0f0715] w-full relative overflow-hidden z-[1] pt-20 lg:pt-32 pb-[90px] text_animation">
       {/* gradient start  */}
       <div className="before_gradient hero-section"></div>
       {/* text animation start  */}
@@ -24,62 +25,67 @@ const Hero = () => {
         <div className="grid gap-10 mt-16 md:grid-cols-2 md:items-center">
           <div>
             <h3 className="text-[#dddddd] font-bold text-[22px] lg:text-[36px] mb-[10px]">
-              I am Sojib
+              I&rsquo;m Merajul Islam Sojib
             </h3>
             <h1 className="text-[35px] lg:text-[65px] text_gradient font-bold leading-[1.2]">
-              Web Developer +<br /> UX Designer
+              Front-End Developer
             </h1>
           </div>
           {/* hero image start  */}
           <div className="flex justify-center md:justify-end md:row-span-2 relative">
-            <div className="hero-image-box2"></div>
+            <div className="hero-image-box2 "></div>
             <Image
-              src={hero_img}
+              src={hero_img_2}
               alt="hero_img"
-              className="hero-image-box w-80 lg:w-[25rem]"
+              className="hero-image-box w-80 lg:w-[25rem] "
             />
           </div>
           <div className="space-y-5 lg:space-y-2">
             <p className=" max-w-[550px] w-full mb-0 text-[20px] font-light text-[#dddddd]">
-              I break down complex user experinece problems to create integritiy
-              focussed solutions that connect billions of people
+              Passionate web developer and open-source enthusiast. Experienced
+              in various programming languages and technologies.
             </p>
             {/* button start  */}
             <div className="flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-8 pt-10">
               <div>
                 <Link
-                  href={"#"}
+                  target="blank"
+                  href={
+                    "https://drive.google.com/file/d/1BvTbHU0DZ-0SGKQUoz5Cu0UZJOSNZyC2/view"
+                  }
                   className="text-[15px] leading-[1] font-medium text-[#8750f7] rounded-[50px]
                  py-[17px] px-[35px] border border-[#8750f7] tracking-[1px] transition-all
                   duration-300 hover:bg-[#8750f7] hover:text-[#dddddd]"
                 >
-                  Download CV
+                  Download Resume
                 </Link>
               </div>
               <div className="flex items-center gap-5">
-                <Link
+                {/* <Link
                   href={"#"}
                   className="border border-[#8750f7] rounded-full p-[10px] text-[#8750f7]
                    hover:text-white transition-all duration-300 hvr-radial-out bg-transparent overflow-hidden"
                 >
                   <FaTwitter />
-                </Link>
-                <Link
+                </Link> */}
+                {/* <Link
                   href={"#"}
                   className="border border-[#8750f7] rounded-full p-[10px] text-[#8750f7]
                    hover:text-white transition-all duration-300 hvr-radial-out bg-transparent overflow-hidden"
                 >
                   <FaDribbble />
-                </Link>
+                </Link> */}
                 <Link
-                  href={"#"}
+                  target="blank"
+                  href={"https://www.linkedin.com/in/md-merajul-islam-sojib"}
                   className="border border-[#8750f7] rounded-full p-[10px] text-[#8750f7]
                    hover:text-white transition-all duration-300 hvr-radial-out bg-transparent overflow-hidden"
                 >
                   <FaLinkedinIn />
                 </Link>
                 <Link
-                  href={"#"}
+                  target="blank"
+                  href={"https://github.com/sojibislam9878"}
                   className="border border-[#8750f7] rounded-full p-[10px] text-[#8750f7]
                    hover:text-white transition-all duration-300 hvr-radial-out bg-transparent overflow-hidden"
                 >
@@ -90,7 +96,7 @@ const Hero = () => {
           </div>
         </div>
         {/* exprience content start  */}
-        <div className="mt-14 md:mt-20 lg:mt-28 grid grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center lg:justify-items-start">
+        {/* <div className="mt-14 md:mt-20 lg:mt-28 grid grid-cols-2 lg:grid-cols-4 gap-10 justify-items-center lg:justify-items-start">
           <div className="flex items-center gap-4">
             <h3 className="text-white text-[45px] lg:text-[64px] font-semibold leading-[1.1em]">
               <CountUp start={0} end={0} duration={5} />
@@ -127,7 +133,7 @@ const Hero = () => {
               Experience
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

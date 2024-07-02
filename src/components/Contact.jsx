@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <section id="contact" className="bg-[#050709] w-full py-20">
       <div className="container mx-auto">
-        <div className="grid gap-10 md:grid-cols-2 md:items-center">
+        <div className="grid gap-10 md:grid-cols-1 md:items-center">
           <div className="flex flex-col gap-10 lg:order-last lg:ml-[110px] md:order-last  ">
             <div className="flex gap-5 items-center">
               <div className="contact_icon_box flex items-center justify-center">
@@ -55,8 +55,8 @@ const Contact = () => {
                   href={"#"}
                   className="text-[20px] leading-[30px] text-white  hover:text-[#8750f7] transition-all duration-300"
                 >
-                  Bothuabari <br />
-                  Dhunat,Bogura
+                  Bogura <br />
+                  Bangladesh
                 </Link>
               </div>
             </div>
