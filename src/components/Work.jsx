@@ -15,8 +15,7 @@ const Work = () => {
           My Recent Works
         </h1>
         <p className="text-[16px] leading-[24px] text-[#dddddd] text-center lg:px-[22rem]">
-          We put your ideas and thus your wishes in the form of a unique web
-          project that inspires you and you customers.
+        Discover a diverse collection of my recent projects, showcasing dynamic and responsive web applications designed to deliver seamless user experiences.
         </p>
         <span className="portfolio-box"></span>
         {/* portfolio button start  */}

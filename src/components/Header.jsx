@@ -178,7 +178,7 @@ export default function Header() {
           duration={500}
               variant="gradient"
               size="sm"
-              className="text-[12px] lg:text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary  lg:mr-0  cursor-pointer"
+              className="text-[12px] lg:text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary  lg:mr-0  "
             >
               Hire Me!
             </Link>
@@ -200,7 +200,7 @@ export default function Header() {
       </div>
       <MobileNav
         open={openNav}
-        className=" z-50 bg-[#2A1454] transition-all duration-100"
+        className=" z-50 bg-[#2A1454] transition-all duration-100 lg:hidden"
       >
         <div className="flex flex-col text-center justify-center py-10">
           {navList}

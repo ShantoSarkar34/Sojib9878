@@ -17,8 +17,8 @@ const Skills = () => {
           My Skills
         </h1>
         <p className="text-[16px] leading-[24px] text-[#dddddd] text-center lg:px-[22rem]">
-          We put your ideas and thus your wishes in the form of a unique web
-          project that inspires you and you customers.
+          Skilled in HTML, CSS, JavaScript, Tailwind, Node.js, Express, and
+          MongoDB for developing dynamic, responsive web applications.
         </p>
         <div className="mt-20 grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 lg:gap-8">
           <div className="flex flex-col">
@@ -72,7 +72,7 @@ const Skills = () => {
             </div>
             <h4 className="text-center text-[#8750f7]">Tailwind</h4>
           </div>
-         
+
           <div className="flex flex-col">
             <div className="skill-item">
               <div className="skill-inner">
