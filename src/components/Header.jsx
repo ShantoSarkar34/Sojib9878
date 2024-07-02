@@ -170,13 +170,18 @@ export default function Header() {
         <div className="flex items-center gap-10">
           <div className="mr-4 hidden lg:block  ">{navList}</div>
           <div className="hidden md:block">
-            <Button
+            <Link activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={500}
               variant="gradient"
               size="sm"
-              className="text-[12px] lg:text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary  lg:mr-0  "
+              className="text-[12px] lg:text-[15px] leading-[22px] font-bold text-white normal-case py-2 px-7 rounded-full btn-primary  lg:mr-0  cursor-pointer"
             >
               Hire Me!
-            </Button>
+            </Link>
           </div>
           <IconButton
             variant="text"
